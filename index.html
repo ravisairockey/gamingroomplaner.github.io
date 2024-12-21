@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedroom Planner Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            color: #5a67d8;
+        }
+
+        .iframe-container {
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        iframe {
+            width: 960px;
+            height: 500px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        footer a {
+            color: #5a67d8;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bedroom Design Viewer</h1>
+        <p>Explore your bedroom design in both 2D and 3D views.</p>
+    </header>
+
+    <div class="iframe-container">
+        <iframe src="https://planner5d.com/v?viewMode=2d&key=b859fe92791b4a74236c5d902710ec88" allowfullscreen></iframe>
+        <iframe src="https://planner5d.com/v?viewMode=3d&key=b859fe92791b4a74236c5d902710ec88" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <p>Designed by <a href="https://yourportfolio.com" target="_blank">Ravi Sai Vigneswara</a></p>
+    </footer>
+</body>
+</html>
